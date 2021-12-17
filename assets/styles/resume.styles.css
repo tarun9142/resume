@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    padding: 0;
+    margin: 0%;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.no-list-styles{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.body-header{
+    height: 65vh;
+    opacity: 0.8;
+    background-image: url('https://ninjasfiles.s3.amazonaws.com/asset_0000000000000020_1549743985_macbook_mouse.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.horizontal-list{
+    text-align: center;
+}
+
+.horizontal-list li{
+    display: inline-block;
+    margin: 0 8px 8px 0;
+}
+
+.horizontal-list li a{
+    color: white;
+    padding-bottom: 2px;
+}
+
+.horizontal-list li a:hover{
+    color: grey;
+    border-bottom: 1px solid white;
+}
