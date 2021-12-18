@@ -63,3 +63,37 @@ a{
     font-size: 1rem;
     padding: 10px;
 }
+
+/* About section */
+
+.about{
+    width: 100%;
+    height: auto;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.about .my-image{
+    width: 12rem;
+    height: 12rem;
+    margin: auto;
+    margin-top: -10vh;
+}
+
+.about img{
+    width: 100%;
+    height: 100%;
+    border: 3px solid white;
+    border-radius: 50%;
+    box-shadow: 0 0 4px 4px lightgrey;
+}
+
+.about-para{
+    padding: 10px;
+    width: 70%;
+    margin: auto;
+    text-align: justify;
+    color: grey;
+    line-height: 28px;
+    font-size: 1.1rem;
+}
