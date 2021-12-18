@@ -27,7 +27,7 @@ a{
     background-attachment: fixed;
 }
 
-.horizontal-list{
+.text-center{
     text-align: center;
 }
 
@@ -44,4 +44,22 @@ a{
 .horizontal-list li a:hover{
     color: grey;
     border-bottom: 1px solid white;
+}
+
+/* Name and social icons */
+
+.name-social-container{
+    margin-top: 15vh;
+}
+
+.my-name{
+    font-size: 3rem;
+    font-weight: 700;
+    color: white;
+    text-shadow: 1px 1px 4px black;
+}
+
+.social-container a i{
+    font-size: 1rem;
+    padding: 10px;
 }
