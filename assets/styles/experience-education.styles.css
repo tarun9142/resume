@@ -1,0 +1,103 @@
+/* work experience and education section stylings */
+
+.timeline {
+  position: relative;
+  width: 75%;
+}
+
+.timeline-box {
+  position: relative;
+  width: 40%;
+  min-height: 150px;
+  padding: 5px;
+  left: 5%;
+  text-align: right;
+}
+
+.timeline-box:nth-child(2n) {
+  left: 53%;
+}
+
+.timeline-box::after {
+  content: "";
+  width: 15px;
+  height: 15px;
+  background-color: grey;
+  border-radius: 50%;
+  position: absolute;
+  top: 25%;
+  z-index: 1;
+}
+
+.timeline-box:nth-child(2n + 1)::after {
+  right: -14.5%;
+}
+
+.timeline-box:nth-child(2n)::after {
+  left: -9.2%;
+}
+.timeline-container {
+  padding: 8px;
+}
+
+.timeline-logo {
+  position: absolute;
+  width: 50px;
+  overflow: hidden;
+}
+
+.timeline-logo img {
+  width: 100%;
+}
+
+.timeline-divider {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  width: 0;
+  height: 66%;
+  border: 1px dashed #0096fa6b;
+  color: #433e3f;
+}
+
+.timeline-divider .timeline-traveller {
+    position: sticky;
+    top: 135px;
+    z-index: 2;
+}
+
+.timeline-divider i {
+    transform: rotate(90deg);
+    margin-top: -35px;
+    display: block;
+    color: #2857a4;
+}
+
+.experience-designation {
+  font-size: 1.4rem;
+  color: #2857a4;
+  margin: 0;
+}
+
+.experience-company-name {
+  margin: 5px 0 0;
+  color: #eb822d;
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+
+.experience-duration {
+  color: #9e9b9b;
+  font-weight: 100;
+  color: grey;
+  font-size: 1rem;
+  margin: 0;
+}
+
+.experience-description {
+  font-size: 14px;
+  padding: 2px;
+  color: grey;
+  line-height: 20px;
+  text-align: justify;
+}
