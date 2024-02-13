@@ -184,7 +184,7 @@ section:nth-child(2n + 1) {
     width: 100%;
     height: auto;
     position: relative;
-    margin-bottom: 30px;
+    margin-bottom: 100px;
 }
 
 #about .my-image{
@@ -204,12 +204,12 @@ section:nth-child(2n + 1) {
 
 .about-para{
     padding: 10px;
-    width: 70%;
+    width: 60%;
     margin: auto;
     text-align: justify;
-    color: grey;
+    color: black;
     line-height: 28px;
-    font-size: 1.1rem;
+    font-size: 1.5rem;
 }
 
 /* skills section  */
@@ -247,22 +247,7 @@ section:nth-child(2n + 1) {
     vertical-align: middle;
 }
 
-@media only screen and (max-width: 572px) {
-    
-    .timeline-box {
-        width: 100%;
-        left: 10% !important;
-    }
 
-    .bars {
-        display: block;
-    }
-    
-    
-    .nav-menu {
-        display: none;
-    } 
-}
 
 
 
@@ -301,4 +286,25 @@ section:nth-child(2n + 1) {
         margin: 10%;
     }
 
+}
+
+@media only screen and (max-width: 572px) {
+    
+    .timeline-container{
+        width: 200%;
+
+    }
+    .timeline-box {
+        width: 100%;
+        left: 10% !important;
+    }
+
+    .bars {
+        display: block;
+    }
+    
+    
+    .nav-menu {
+        display: none;
+    } 
 }
