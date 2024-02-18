@@ -25,7 +25,7 @@
   background-color: grey;
   border-radius: 50%;
   position: absolute;
-  top: 25%;
+  top: -5%;
   z-index: 1;
 }
 
@@ -52,7 +52,7 @@
 
 .timeline-divider {
   position: absolute;
-  top: 10%;
+  top: 6%;
   left: 50%;
   width: 0;
   height: 66%;
